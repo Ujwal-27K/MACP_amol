@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background: url('https://i.pinimg.com/originals/a5/42/e9/a542e91082b707ec0fa1c8f3bacc2304.png') no-repeat center center fixed; /* Replace 'path/to/your/image.png' with the actual image path */
+    background-size: cover; /* Ensures the image covers the entire screen */
     margin: 0;
     padding: 0;
     display: flex;
@@ -9,13 +10,15 @@ body {
     min-height: 100vh;
 }
 
+
 .container {
-    background: #fff;
+    background: #cd8c68;
+    opacity: 0.9;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 400px;
+    max-width: 400px; /* Restricts form width */
 }
 
 .container h2 {
@@ -30,28 +33,33 @@ body {
 .form-group label {
     display: block;
     margin-bottom: 5px;
-    color: #555;
+    color: #170c06;
     font-weight: bold;
 }
 
 .form-group input {
-    width: 100%;
+    width: 100%; /* Ensure input fields take full width */
     padding: 10px;
     padding-right: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    box-sizing: border-box; /* Include padding in width calculation */
 }
 
 .btn {
-    width: 100%;
-    padding: 10px;
+    display: inline-block;
+    width: 100%; /* Ensure button takes full width */
+    max-width: 200px; /* Max width for button */
+    padding: 10px 20px; /* Consistent padding */
+    margin: 10px auto; /* Center the button */
     border: none;
-    background: #007bff;
+    background: #170c06;
     color: #fff;
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
-    margin-top: 10px;
+    text-align: center;
+    box-sizing: border-box; /* Include padding in width calculation */
 }
 
 .btn:hover {
@@ -62,7 +70,7 @@ body {
     margin-top: 20px;
     text-align: center;
     font-size: 18px;
-    color: #28a745;
+    color: #170c06;
 }
 
 @media (max-width: 480px) {
