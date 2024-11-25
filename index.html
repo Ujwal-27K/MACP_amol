@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MACP Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>MACP Calculator</h2>
+        <form id="macpForm">
+            <div class="form-group">
+                <label for="income">Income:</label>
+                <input type="number" id="income" name="income" placeholder="e.g. 8000" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" placeholder="e.g. 15" required>
+            </div>
+            <div class="form-group">
+                <label for="family">No. of Family Members:</label>
+                <input type="number" id="family" name="family" placeholder="e.g. 3" required>
+            </div>
+            <div class="form-group">
+                <label for="percentage">Percentage Increase (%):</label>
+                <input type="number" id="percentage" name="percentage" placeholder="e.g. 50" required>
+            </div>
+            <div class="form-group">
+                <label for="additional">Additional Amount:</label>
+                <input type="number" id="additional" name="additional" placeholder="e.g. 10000" required>
+            </div>
+            <button type="button" class="btn" onclick="calculateMACP()">Calculate Amount</button>
+        </form>
+        <div class="result" id="result"></div>
+        <footer style="text-align: center; padding: 10px; background-color: #f1f1f1; color: #333; font-size: 14px;">
+            <strong>Adv. Amol B. Baviskar</strong><br>
+            Email :  <a href="mailto:amolbharatbaviskar@gmail.com" style="color: #007bff; text-decoration: none; font-weight: bold;">
+                <span style="display: inline-flex; align-items: center;">
+                    amolbharatbaviskar@gmail.com
+                </span>
+            </a>
+        </footer>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
