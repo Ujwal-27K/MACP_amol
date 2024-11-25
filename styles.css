@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: url('https://i.pinimg.com/originals/a5/42/e9/a542e91082b707ec0fa1c8f3bacc2304.png') no-repeat center center fixed; /* Replace 'path/to/your/image.png' with the actual image path */
+    background: url('back.png') no-repeat center center fixed; /* Replace 'path/to/your/image.png' with the actual image path */
     background-size: cover; /* Ensures the image covers the entire screen */
     margin: 0;
     padding: 0;
